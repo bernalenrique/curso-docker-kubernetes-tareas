@@ -22,7 +22,7 @@ docker run -d -p 8081:80 --name mi-apache httpd
 
 **Screenshot:**
 
-![Container corriendo](screenshots/00_dockerrun.png)
+![Iniciando el contenedor](screenshots/00_dockerrun.png)
 
 ### 2. Verificar que está corriendo
 
@@ -34,7 +34,7 @@ curl localhost:8081
 
 **Screenshot:**
 
-![Container corriendo](screenshots/01_dockerps.png)
+![Verficando funcionamiento del contenedor](screenshots/01_dockerps.png)
 
 **Explicación:** Se valido que existe una instancia corriendo asi tambien los logs generados por el contenedor en tiempo real (-f) y con curl se verifico que el servidor web este arriba.
 
@@ -49,7 +49,7 @@ docker ps -a
 ```
 **Explicación:** Se detuvo el contenerdor (mi-apache) a continuacion se valido que no se tiene una instancia corriendo pero si una detenida (ps -a), seguidamente se elimino el contenedor y se valido.
 
-![Nginx funcionando](screenshots/02_dockerrm.png)
+![Deteniendo y eliminado el contenedor](screenshots/02_dockerrm.png)
 
 ## Conclusiones
 
