@@ -81,8 +81,13 @@ docker build -t appy-docker .
 
 ## Testing
 
+Imagen de aplicacion:
 ![Docker Images](screenshots/01_images.png)
+
+Contenedor corriendo:
 ![Container Running](screenshots/02_dockerps.png)
+
+Verficacion de funcionamiento:
 ![API Response](screenshots/03_curl.png)
 
 ## Docker Hub
