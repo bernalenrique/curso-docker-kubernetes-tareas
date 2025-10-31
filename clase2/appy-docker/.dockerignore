@@ -1,0 +1,15 @@
+#Excluir directorios de cache y variables de entorno
+pycache/
+*.pyc
+*.pyo
+.venv
+venv
+env/
+
+#Excluir archivos de Git
+.git
+.gitignore
+.dockerignore
+
+#Excluir archivos de configuración de Docker
+Dockerfile
