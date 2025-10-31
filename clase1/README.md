@@ -53,4 +53,4 @@ docker ps -a
 
 ## Conclusiones
 
-Aprendi a iniciar una instacian de una imagen, validar que esta este funcionando, como detener y eliminar la instacia.
+Aprendi a iniciar una instancia de una imagen, validar que esta este funcionando, como detener y eliminar la instancia.
