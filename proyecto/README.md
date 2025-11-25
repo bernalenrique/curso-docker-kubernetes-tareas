@@ -42,7 +42,8 @@
 
 ![images](punto2/proyecto_p2-02_a.png)
 
-### Link a imagen en Docker Hub https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
+### Link a imagen en Docker Hub
+https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
 
 ![dockerhub](punto2/proyecto_p2-02_b.png)
 
@@ -58,6 +59,7 @@
 
 ![pods](punto2/proyecto_p2-5.png)
 
-### output de curl http://<IP-METALLB>/api/info
+### output de curl http://192.168.1.240/api/info
 
 ![curl](punto2/proyecto_p2-6.png)
+
