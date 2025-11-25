@@ -14,7 +14,7 @@
 
 **frontend Angular**
 
-![inicio](punto1/proyecto_p1-03.png)
+![inicio](punto1/proyecto_p1-03_a.png)
 
 **JSON con el saludo**
 
@@ -31,4 +31,5 @@
 ### Identidad del ambiente validada
 
 ![hostname](punto1/proyecto_p1-04.png)
+
 
