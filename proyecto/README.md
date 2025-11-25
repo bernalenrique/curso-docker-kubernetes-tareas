@@ -94,3 +94,38 @@ https://hub.docker.com/repository/docker/bernalconde/angular-frontend/tags
 
 ![curl](punto3/proyecto_p3-05.png)
 
+## Parte 4: Gestión de Versiones con Rollout
+
+## Parte 5: Acceso Externo via Ingress + MetalLB
+
+### kubectl get ingress mostrando la IP asignada
+
+![curl](punto5/proyecto_p5-01.png)
+
+### kubectl describe ingress mostrando las rutas configuradas
+
+![curl](punto5/proyecto_p5-02.png)
+
+### Verificamos metalLB
+
+![curl](punto5/proyecto_p5-03.png)
+
+### frontend
+
+![curl](punto5/proyecto_p5-04.png)
+
+### curl a /api/users y /api/greeting
+
+![curl](punto5/proyecto_p5-05.png)
+
+### curl a /api/info
+
+![curl](punto5/proyecto_p5-06.png)
+
+### curl a /actuator/health
+
+![curl](punto5/proyecto_p5-07.png)
+
+### Acceso desde otro equipo (celular)
+
+![curl](punto5/proyecto_p5-08.png)
