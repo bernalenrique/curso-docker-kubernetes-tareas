@@ -32,4 +32,32 @@
 
 ![hostname](punto1/proyecto_p1-04.png)
 
+## Parte 2: Iteración v2.1 - Modificar Backend
 
+### Código del endpoint agregado
+
+![endpoint](punto2/proyecto_p2-01.png)
+
+### docker images
+
+![images](punto2/proyecto_p2-02_a.png)
+
+### Link a imagen en Docker Hub https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
+
+![dockerhub](punto2/proyecto_p2-02_b.png)
+
+### kubectl rollout status durante la actualización
+
+![roullout](punto2/proyecto_p2-4_a.png)
+
+![roullout](punto2/proyecto_p2-4_a.png)
+
+**Nota:** Se presento un error durante el rollout debido a una mala configuracion en la adicion de un nuevo endpoint, se adiciono el nuevo endpoint a la misma ruta. Una vez corregido el error se procedio a repetir el ciclo de construcion y despliegue.
+
+### kubectl get pods
+
+![pods](punto2/proyecto_p2-5.png)
+
+### output de curl http://<IP-METALLB>/api/info
+
+![curl](punto2/proyecto_p2-6.png)
