@@ -51,7 +51,7 @@ https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
 
 ![roullout](punto2/proyecto_p2-4_a.png)
 
-![roullout](punto2/proyecto_p2-4_a.png)
+![roullout](punto2/proyecto_p2-4_b.png)
 
 **Nota:** Se presento un error durante el rollout debido a una mala configuracion en la adicion de un nuevo endpoint, se adiciono el nuevo endpoint a la misma ruta. Una vez corregido el error se procedio a repetir el ciclo de construcion y despliegue.
 
@@ -63,3 +63,28 @@ https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
 
 ![curl](punto2/proyecto_p2-6.png)
 
+## Parte 3: Iteración v2.2 - Modificar Frontend
+
+### Código modificado de Angular
+
+![curl](punto3/proyecto_p3-01_a.png)
+
+![curl](punto3/proyecto_p3-01_b.png)
+
+### imagen en Docker Hub
+
+![curl](punto3/proyecto_p3-02.png)
+
+### kubectl get pods -w durante el rolling update del frontend
+
+![curl](punto3/proyecto_p3-03_a.png)
+
+![curl](punto3/proyecto_p3-03_b.png)
+
+### botón "Ver Info del Sistema"
+
+![curl](punto3/proyecto_p3-04.png)
+
+### información del sistema cargada
+
+![curl](punto3/proyecto_p3-05.png)
