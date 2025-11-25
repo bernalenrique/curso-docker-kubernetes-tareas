@@ -1,5 +1,6 @@
 package dev.alefiengo.api.controller;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -30,14 +31,14 @@ public class GreetingController {
     }
 
     @GetMapping("/api/info")
-    public Map<String, Object> info() {
-        Map<String, Object> response = new HashMap<>();
-        response.put("application", "Spring Boot API");
-        response.put("version", "2.0.0");
-        response.put("author", "alefiengo");
-        response.put("java_version", System.getProperty("java.version"));
-        response.put("uptime_seconds", getUptime());
-        return response;
+    public ResponseEntity<Map<String, Object>> getInfo() {
+        Map<String, Object> info = new HashMap<>();
+        info.put("alumno", "FELIX ENRIQUE BERNAL CONDE");
+        info.put("version", "v2.1");
+        info.put("curso", "Docker & Kubernetes - i-Quattro");
+        info.put("timestamp", LocalDateTime.now().toString());
+        info.put("hostname", System.getenv("HOSTNAME"));
+        return ResponseEntity.ok(info);
     }
 
     private long getUptime() {
