@@ -67,11 +67,16 @@ https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
 
 ### Código modificado de Angular
 
+**appcomponent.html**
+
 ![curl](punto3/proyecto_p3-01_a.png)
+
+**appcomponent.ts**
 
 ![curl](punto3/proyecto_p3-01_b.png)
 
 ### imagen en Docker Hub
+https://hub.docker.com/repository/docker/bernalconde/angular-frontend/tags
 
 ![curl](punto3/proyecto_p3-02.png)
 
@@ -88,3 +93,4 @@ https://hub.docker.com/repository/docker/bernalconde/springboot-api/tags
 ### información del sistema cargada
 
 ![curl](punto3/proyecto_p3-05.png)
+
